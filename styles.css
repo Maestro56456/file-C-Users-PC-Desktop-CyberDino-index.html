@@ -1,0 +1,13 @@
+#dino-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    transition: bottom 0.3s; /* Для анимации прыжка */
+}
+
+#dino-top {
+    position: absolute;
+    top: 10px; /* Высота верхнего динозавра */
+    left: 50px;
+    transition: top 0.3s; /* Для анимации прыжка */
+}

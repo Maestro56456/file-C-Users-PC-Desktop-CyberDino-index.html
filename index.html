@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Киберпанковый Динозаврик</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Приветствую тебя в мире киберпанкового Тираннозавра!</h1>
+        <img src="images/Скин1.png" alt="Динозавр" class="dino" id="dino">
+        <button id="playBtn">Играть</button>
+        <div id="menu" class="hidden">
+            <h2>Выбери скин для своего динозавра:</h2>
+            <button onclick="changeSkin('images/Скин1.png')">Скин 1</button>
+            <button onclick="changeSkin('images/Скин2.png')">Скин 2</button>
+            <button onclick="changeSkin('images/Скин3.png')">Скин 3</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<div class="game-container hidden">
+    <img src="images/dino_default.png" alt="Динозавр" class="dino" id="dino-bottom">
+    <img src="images/dino_default.png" alt="Динозавр" class="dino" id="dino-top" style="position: absolute; top: 10px;">
+    <div class="obstacle" id="obstacle"></div>
+</div>
